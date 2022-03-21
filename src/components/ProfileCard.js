@@ -11,7 +11,7 @@ function ProfileCard({writer}) {
     <p>{writer.email}</p>
     <p>{writer.phone}</p>
 
-    <button className='actionBth'>Read Bio</button>
+    <button className='actionBth' onClick={this.handleClick}>Read Bio</button>
     
     
     </div>

@@ -68,7 +68,7 @@ setTimeout(async()=>{
      { list.length === 0 ? (
        <div className="card action">
        <p>Oops....no writer profile found</p>
-       <button className="actionBtn">Get Writers</button>
+       <button className="actionBtn" onClick={this.handleClick}>Get Writers</button>
        </div>
 
      ):(
